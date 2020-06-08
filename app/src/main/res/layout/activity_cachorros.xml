@@ -5,28 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/holo_purple"
-    tools:context=".CampanaSecondActivity">
+    tools:context=".CachorrosActivity">
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/textView22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_purple"
         android:fontFamily="@font/cookie"
-        android:text="Campañas"
+        android:text="Cachorros"
         android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView30"
-        android:layout_width="229dp"
-        android:layout_height="151dp"
-        android:layout_marginTop="96dp"
-        android:text="Campaña de vacunación  sitio: parque simon Bolivar horario: 12 a 6 pm"
-        android:textSize="24sp"
+    <ListView
+        android:id="@+id/lista_id"
+        android:layout_width="327dp"
+        android:layout_height="534dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
 </androidx.constraintlayout.widget.ConstraintLayout>

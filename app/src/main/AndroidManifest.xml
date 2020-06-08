@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DireccionSecondActivity"></activity>
+        <activity android:name=".ReportesSecondActivity"></activity>
+        <activity android:name=".CachorrosActivity" />
+        <activity android:name=".DireccionSecondActivity" />
         <activity android:name=".CampanaSecondActivity" />
         <activity android:name=".PreguntasActivity" />
         <activity android:name=".VeterinariaActivity" />

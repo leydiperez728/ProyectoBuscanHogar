@@ -1,14 +1,10 @@
 package com.example.buscandohogar
 
-import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import android.widget.ArrayAdapter
-import kotlinx.android.synthetic.main.activity_main.*
+import android.view.View
 import kotlinx.android.synthetic.main.activity_second.*
-import java.io.PrintStream
 
 class SecondActivity : AppCompatActivity() {
    // lateinit var myAdapter: ArrayAdapter<String>
@@ -32,11 +28,14 @@ class SecondActivity : AppCompatActivity() {
         reportes_id.setOnClickListener { view ->
             openReportesActivity()
         }
-        veterinary_id.setOnClickListener { view ->
+        veterinaria_id.setOnClickListener { view ->
+            openVeterinariaActivity()
+        }
+        veterinaria_id.setOnClickListener { view ->
             openVeterinariaActivity()
         }
         preguntas_id.setOnClickListener { view ->
-            openVeterinariaActivity()
+            openPreguntasActivity()
         }
     }
     /*
@@ -75,12 +74,12 @@ class SecondActivity : AppCompatActivity() {
         val intent = Intent(this, ReportesActivity::class.java)
         startActivity(intent)
     }
-    fun openVeterinariaActivity () {
-        val intent = Intent(this, VeterinariaActivity::class.java)
+    fun openPreguntasActivity () {
+        val intent = Intent(this, PreguntasActivity::class.java)
         startActivity(intent)
     }
-    fun openpreguntasActivity () {
-        val intent = Intent(this, PreguntasActivity::class.java)
+    fun openVeterinariaActivity () {
+        val intent = Intent(this, VeterinariaActivity::class.java)
         startActivity(intent)
     }
 }

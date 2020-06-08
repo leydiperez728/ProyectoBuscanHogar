@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/darker_gray"
+    android:background="@android:color/holo_purple"
     tools:context=".SecondActivity"
     tools:menu="......">
 
@@ -66,7 +66,7 @@
         app:layout_constraintTop_toBottomOf="@+id/esterilizacion_id" />
 
     <Button
-        android:id="@+id/veterinary_id"
+        android:id="@+id/veterinaria_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -85,6 +85,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.114"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/veterinary_id" />
+        app:layout_constraintTop_toBottomOf="@+id/veterinaria_id" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
